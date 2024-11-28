@@ -1,4 +1,4 @@
-import express from "express";
+import express from "express"; // No terminal: npm install express.js (irá criar o arquivo package-lock.json)
 import routes from "./src/routes/postsRoutes.js";
 
 const app = express();
